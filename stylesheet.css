@@ -24,7 +24,7 @@ header{
 .navigation ul li {        /* 按鈕個別設定*/
     list-style-type: none; /* 取消預設的黑點*/
     display: inline;       /* 成一行排列*/
-    margin: 87px;         
+    margin: 20px;         
     font-size: 16px;   
 }
 .navigation ul li a {      /* 超連結設定*/
