@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;600&display=swap');
+body{
+font-family: 'Noto Sans TC', sans-serif;
+}
+
+header{
+    height: 124px;
+    width: 100%;
+    background-color:#DBD3CE ;
+}
+.header_logo{
+   display: flex;
+   /*align-items: center;*/
+   padding-left:77px;
+   padding-top: 31px;
+}
+/* 導覽列 */
+.navigation ul {           /* 導覽列整體設定*/
+    margin: 0;             /* 取消外距，設定為0*/
+    margin-top: -53px; /*感覺怪怪的 但用padding沒反應*/
+    padding: 0px;         
+    text-align: center;    /* 文字置中*/
+}
+.navigation ul li {        /* 按鈕個別設定*/
+    list-style-type: none; /* 取消預設的黑點*/
+    display: inline;       /* 成一行排列*/
+    margin: 87px;         
+    font-size: 16px;   
+}
+.navigation ul li a {      /* 超連結設定*/
+    color:#000000;         /* 文字顏色設定*/
+    text-decoration: none; /* 文字無底線*/
+}
+.navigation ul li a:hover {/* 游標懸浮效果*/
+    color: rgb(109, 100, 88);        /* 文字顏色設定*/
+    text-decoration: underline;/* 文字有底線*/
+}
+.carousel_slide {
+    width: 1140px;
+    height: 380px;
+    overflow: hidden; 
+    border-radius: 47.5px; /* 圓角 */
+    margin-top: 80px;
+  }
+  
+  .carousel-inner {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保持圖像比例，填滿整個容器 */ /*不太懂意思*/
+    border-radius: 47.5px; /* 圓角 */
+  }
+div.banner{
+    margin-top: 60px;
+    width: 1140px;
+    height: 330px;
+    overflow: hidden; 
+    border-radius: 47.5px; /* 圓角 */
+    /* display: flex;
+    align-items: center; 沒反應*/       
+  }
+div.about-me{
+    display: flex
+    /* margin-top: 60px; */
+}  
+div.about-me-img{
+    margin-top: 60px;
+    border-radius: 40.6px; /* 圓角 */
+    width: 325px;
+    height: 325px;
+    background-image: url(img/div1.png);
+    background-size: cover;
+}
+div.about-me-text{
+    display: inline;       /* 成一行排列(要寫在物件內)*/
+    margin-top: 60px;
+    width: 803px;
+    height: 325px;
+    background-image: url(img/div2.png);
+    background-size: cover;
+    padding-left:105px ; /*微調*/
+    padding-top: 45px;/*微調*/
+    font-size: 20px;
+    line-height: 30px;
+    color: #884A3D;
+}  
+div.online-shop{
+    margin-top: 50px;
+}
+div.product {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* 調整間距的大小 */
+}
+div.product-card {
+    padding-top: 25px;
+    background-color: #C3B6AE;
+    width:320px;
+    height: 280px;
+    border-radius: 35px;
+    font-size: 20px;
+    color: #704747;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+div.card-img {
+    width: 275px;
+    height: 165px;
+    border-radius: 20.6px;
+    background-size: cover;
+}
+
+p.price {
+    font-size: 21px;
+    font-weight: 600;
+}
+/*小卡換照片*/
+.s1 .card-img{
+    background-image: url(img/product01.png);
+}
+.s2 .card-img{
+    background-image: url(img/product02.png);
+}
+.s3 .card-img{
+    background-image: url(img/product03.png);
+}
+.s4 .card-img{
+    background-image: url(img/product04.png);
+}
+.s5 .card-img{
+    background-image: url(img/product05.png);
+}
+.s6 .card-img{
+    background-image: url(img/product06.png);
+}
+.s7 .card-img{
+    background-image: url(img/product07.png);
+}
+.s8 .card-img{
+    background-image: url(img/product08.png);
+}
+.s9 .card-img{
+    background-image: url(img/product09.png);
+}
+.s10 .card-img{
+    background-image: url(img/product10.png);
+}
+.s11 .card-img{
+    background-image: url(img/product11.png);
+}
+.s12 .card-img{
+    background-image: url(img/product12.png);
+}
+.s13 .card-img{
+    background-image: url(img/product13.png);
+}
+.s14 .card-img{
+    background-image: url(img/product14.png);
+}
+.s15 .card-img{
+    background-image: url(img/product15.png);
+}
+/*
+section{
+    display: flex;
+    justify-content: center;
+}
+*/
+.footer-distributed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FBF8F6;
+    color: #A69B8E;
+    padding: 20px; /* 你可能需要調整的填充值 */
+    margin-top: 90px;
+}
+
+.footer-left, .footer-right {
+    flex: 1; /* 讓左右兩區域平均佔據可用的空間 */
+}
+
